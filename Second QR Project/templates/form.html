@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/generate" method="post">
+        {% for i in range(num_pairs) %}
+            Key: <input type="text" name="key{{i}}"> Value: <input type="text" name="value{{i}}"><br>
+        {% endfor %}
+        <input type="hidden" name="num_pairs" value="{{num_pairs}}">
+        <input type="submit" value="Generate QR Code">
+    </form>
+</body>
+</html>
