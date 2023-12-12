@@ -1,4 +1,5 @@
-Certainly! Here's a revised and professional description for your QR Code Generator repository:
+
+![qrcodegenerator](https://github.com/franskter1ful/qrcode_mahkeena/assets/47283968/33083c48-957b-49e4-8eb0-f59a81764a0b)
 
 ---
 
